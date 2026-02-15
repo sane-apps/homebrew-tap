@@ -12,6 +12,14 @@ cask "sanebar" do
 
   app "SaneBar.app"
 
+  caveats <<~EOS
+    Already have SaneBar installed? Use --adopt to let Homebrew manage it:
+      brew install --cask --adopt sane-apps/tap/sanebar
+
+    SaneBar updates itself automatically via Sparkle, so you don't need
+    brew upgrade — but it works too if you prefer.
+  EOS
+
   zap trash: [
     "~/Library/Application Support/SaneBar",
     "~/Library/Preferences/com.sanebar.app.plist",
