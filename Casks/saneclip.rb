@@ -1,6 +1,6 @@
 cask "saneclip" do
-  version "2.3.20"
-  sha256 "db82dd2192450bc1c76cede4fe6b573343779f4fe04a8b27568a6d59f0144b37"
+  version "2.3.21"
+  sha256 "f4f7c640c84326158baf591e64df58439136b9372c112d436c3b739c0466b11e"
 
   url "https://dist.saneclip.com/updates/SaneClip-#{version}.zip"
   name "SaneClip"
@@ -8,7 +8,7 @@ cask "saneclip" do
   homepage "https://saneclip.com"
 
   auto_updates true
-  depends_on macos: :sequoia
+  depends_on macos: :sonoma
 
   app "SaneClip.app"
 
