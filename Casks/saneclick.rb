@@ -4,7 +4,7 @@ cask "saneclick" do
 
   url "https://dist.saneclick.com/updates/SaneClick-#{version}.zip"
   name "SaneClick"
-  desc "Finder action launcher with Basic and Pro script packs"
+  desc "Finder right-click actions for files and folders"
   homepage "https://saneclick.com"
 
   auto_updates true
