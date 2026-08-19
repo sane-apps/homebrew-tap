@@ -1,6 +1,6 @@
 cask "sanesales" do
-  version "1.3.11"
-  sha256 "8ca0c88947b90f2095eff9a1d17fc4f51484072556a7444a79b6c8e576b4e9b0"
+  version "1.3.12"
+  sha256 "59d8a412c82f1006adbc0b6e6a2ff3e8eadae0b264e6abb27490a0ee41acedf4"
 
   url "https://dist.sanesales.com/updates/SaneSales-#{version}.zip"
   name "SaneSales"
