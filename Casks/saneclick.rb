@@ -1,6 +1,6 @@
 cask "saneclick" do
-  version "1.3.5"
-  sha256 "26481ee85c033768690ff2bc12daf3eacfe5068ef3e0e716010b033d0258bf3d"
+  version "1.3.6"
+  sha256 "7edaa8599d3428fb91e924c3b7b0f33f7603ae1a53c865fed7f4780ec135ef69"
 
   url "https://dist.saneclick.com/updates/SaneClick-#{version}.zip"
   name "SaneClick"
